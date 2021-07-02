@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    .btn{
+        @apply bg-green-400 p-3 font-bold text-white bg-gradient-to-t hover:from-yellow-200;
+    }
+    .btn-2{
+        @apply bg-red-400 p-3 font-bold text-white bg-gradient-to-b hover:from-blue-200;
+    }
+}
